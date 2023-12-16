@@ -1,10 +1,17 @@
+import { useEffect } from "react"
 import { MainLayout } from "../components/layouts"
-
+import { HeaderHero } from "../components/sections"
 
 export const Home = () => {
+
+  useEffect(() => {
+    document.title = 'Home'
+  }, [])
+  
+
   return (
-    <MainLayout title="Home">
-      <h1>Home</h1>
+    <MainLayout>
+      <HeaderHero />
     </MainLayout>
   )
 }

@@ -9,7 +9,8 @@ export default {
         brand2: "#98FAEC"
       },
       fontFamily: {
-        body: ["Ubuntu", "IBM Plex Mono", "monospace"],
+        ubuntu: ["Ubuntu"],
+        IBM: ["IBM Plex Mono"],
       }
     },
   },

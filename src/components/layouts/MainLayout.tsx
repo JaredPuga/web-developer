@@ -2,15 +2,11 @@ import { Navbar } from "../ui";
 
 interface MainLayoutProps {
   children: JSX.Element | JSX.Element[];
-  title: string;
 }
 
-export const MainLayout = ({ children, title }: MainLayoutProps) => {
+export const MainLayout = ({ children }: MainLayoutProps) => {
   return (
     <>
-      <head>
-        <title>{title}</title>
-      </head>
 
       <nav>
         <Navbar />

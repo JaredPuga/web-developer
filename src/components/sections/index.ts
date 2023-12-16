@@ -1,0 +1,6 @@
+export * from './HeaderHero'
+export * from './AboutMe'
+export * from './Skills'
+export * from './Works'
+export * from './Blogs'
+export * from  './Contact'
