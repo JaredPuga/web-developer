@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import { MainLayout } from "../components/layouts"
-import { HeaderHero } from "../components/sections"
+import { AboutMe, HeaderHero, Skills } from "../components/sections"
+import { NavFloating } from "../components/ui"
 
 export const Home = () => {
 
@@ -11,7 +12,10 @@ export const Home = () => {
 
   return (
     <MainLayout>
+      <NavFloating />
       <HeaderHero />
+      <AboutMe />
+      <Skills />
     </MainLayout>
   )
 }

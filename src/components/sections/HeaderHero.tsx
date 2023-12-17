@@ -1,19 +1,22 @@
-import { Card } from "./homepage";
+import { Card, Data, Text } from "./homepage";
 
 export const HeaderHero = () => {
   return (
-    <div className="mx-auto w-5/6 xl:w-5/6 lg:w-5/6 md:w-5/6 sm:w-5/6">
-      <h1 className="hidden xl:block lg:block text-5xl font-ubuntu text-center py-10 text-brand2">
+    <div className="mx-auto mt-10 my-0 w-5/6 xl:w-5/6 lg:w-5/6 md:w-5/6 sm:w-5/6 lg:mt-0">
+      <h1 className="hidden xl:block lg:block text-9xl font-ubuntu text-center py-10 text-brand2">
         Developer
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 items-center justify-center">
-        <div className="lg:col-span-2 xl:col-span-1 p-4 flex items-center justify-center">
+      <div className="flex flex-col xl:flex-row xl:justify-between items-center justify-center xl:gap-20">
+        <div className="xl:w-1/5 flex items-center justify-center">
           <Card />
         </div>
 
-        <div className="lg:col-span-1 xl:col-span-1 bg-green-200 p-4"></div>
-
-        <div className="lg:col-span-1 xl:col-span-1 bg-yellow-200 p-4"></div>
+        <div className="flex justify-start md:justify-around xl:w-4/5 flex-wrap lg:flex-nowrap items-start gap-20 sm:gap-0 my-10">
+          <Text />
+          <div className="w-full flex justify-center items-center lg:w-auto mt-8 lg:mt-0">
+            <Data />
+          </div>
+        </div>
       </div>
     </div>
   );

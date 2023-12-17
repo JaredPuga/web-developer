@@ -9,14 +9,14 @@ export const Navbar = () => {
 
   return (
       <header className="border-b mx-auto w-5/6 xl:w-5/6 lg:w-5/6 md:w-5/6 sm:w-5/6">
-        <div className="flex h-16 lg:h-24 justify-between items-center font-IBM">
+        <div className="flex h-20 lg:h-32 justify-between items-center font-IBM">
           <Link to='/' className="flex gap-1">
-            <h1 className="text-brand1">{name}</h1>
-            <h1>SinanTokmak</h1>
+            <h1 className="text-brand1 text-base md:text-2xl lg:text-3xl">{name}</h1>
+            <h1 className="text-base md:text-2xl lg:text-3xl">SinanTokmak</h1>
           </Link>
           <div className="flex justify-center gap-4 items-center ">
-            <Link to='/' ><h1 className={`${location.pathname === '/' && 'text-brand1'}`}>Home</h1></Link>  
-            <Link to='/blog'><h1 className={`${location.pathname === '/blog' && 'text-brand1'}`}>Blogs</h1></Link>
+            <Link to='/' ><h1 className={`${location.pathname === '/' && 'text-brand1'} text-base lg:text-2xl `}>Home</h1></Link>  
+            <Link to='/blog'><h1 className={`${location.pathname === '/blog' && 'text-brand1'} text-base lg:text-2xl`}>Blogs</h1></Link>
             <Search />
             <Icon icon="/ig.svg" alt="instagram-icon" text="Instagram" url="https://www.instagram.com/jaredpuga/"/>
             <Icon icon="/discord.svg" alt="discord-icon" text="Discord" url="https://www.linkedin.com/in/jared-puga-contreras-4b243924b/"/>
