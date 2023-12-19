@@ -31,6 +31,9 @@ export const Blogs = () => {
         <div className="pb-10 flex flex-col">
           <Blog />
           <Blog />
+          <Blog />
+          <Blog />
+          <Blog />
         </div>
 
       </div>
