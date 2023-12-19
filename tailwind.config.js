@@ -25,6 +25,7 @@ export default {
         'customR2': '32px 0 32px 0',
         'r80': '80px',
         'r40': '40px',
+        'r32': '32px'
       },
       screens: {
         sm: '390px',
