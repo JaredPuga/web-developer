@@ -2,7 +2,7 @@ import { Card, Data, Text } from "./homepage";
 
 export const HeaderHero = () => {
   return (
-    <div className="mx-auto mt-10 my-0 w-5/6 xl:w-5/6 lg:w-5/6 md:w-5/6 sm:w-5/6 lg:mt-0">
+    <div className="mx-auto mt-10 my-0 w-5/6 xl:w-5/6 lg:w-5/6 md:w-5/6 sm:w-5/6 lg:mt-0" id="main">
       <h1 className="hidden xl:block lg:block text-9xl font-ubuntu text-center py-10 text-brand2">
         Developer
       </h1>

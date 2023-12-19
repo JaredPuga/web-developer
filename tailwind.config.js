@@ -22,6 +22,7 @@ export default {
       },
       borderRadius: {
         'customR': '160px 0 160px 0',
+        'customR2': '32px 0 32px 0',
         'r80': '80px',
         'r40': '40px',
       },

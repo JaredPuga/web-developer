@@ -1,4 +1,4 @@
-import { Navbar } from "../ui";
+import { Footer, Navbar } from "../ui";
 
 interface MainLayoutProps {
   children: JSX.Element | JSX.Element[];
@@ -15,6 +15,10 @@ export const MainLayout = ({ children }: MainLayoutProps) => {
       <main>
         {children}
       </main>
+
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };

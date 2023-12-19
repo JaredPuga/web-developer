@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 import { MainLayout } from "../components/layouts"
-import { AboutMe, HeaderHero, Skills } from "../components/sections"
+import { AboutMe, Blogs, Contact, HeaderHero, Skills, Works } from "../components/sections"
 import { NavFloating } from "../components/ui"
 
 export const Home = () => {
@@ -16,6 +16,9 @@ export const Home = () => {
       <HeaderHero />
       <AboutMe />
       <Skills />
+      <Works />
+      <Blogs />
+      <Contact />
     </MainLayout>
   )
 }

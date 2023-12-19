@@ -10,7 +10,9 @@ export const Blog = () => {
 
   return (
     <MainLayout>
-      <h1>Blog</h1>
+      <div className="mx-auto mt-10 my-0 w-5/6 xl:w-5/6 lg:w-5/6 md:w-5/6 sm:w-5/6 pt-10" id="About">
+        
+      </div>
     </MainLayout>
   )
 }

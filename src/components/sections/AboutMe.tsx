@@ -16,7 +16,7 @@ export const AboutMe = () => {
   return (
     <div className="bg-cover bg-center h-auto" style={{ backgroundImage: "url('/back1.jpg')" }}>
       <div className="mx-auto mt-10 my-0 w-5/6 xl:w-5/6 lg:w-5/6 md:w-5/6 sm:w-5/6 pt-10" id="About">
-          <div className="w-full flex justify-center items-center flex-col gap-4">
+          <div className="hidden w-full lg:flex justify-center items-center flex-col gap-4">
             <img src="/mouse.svg" alt="mouse-ico" className="w-7"/>
             <img src="/Line.svg" alt="line-ico" className="w-2"/>
           </div>

@@ -18,8 +18,8 @@ export const Text = () => {
             <h3 className="text-sm font-IBM text-brand2">{texth1}</h3>
             <div className="flex flex-col">
                 <h2 className="text-6xl font-ubuntu">Hey</h2>
-                <h2 className="flex text-6xl font-ubuntu">I'm {<Name />},</h2>
-                <h2 className="text-6xl font-ubuntu">Full-Stack Developer</h2>
+                <span className="flex text-6xl font-ubuntu">I'm {<Name />},</span>
+                <span className="text-6xl font-ubuntu">Full-Stack Developer</span>
             </div>
             <h3 className="text-sm font-IBM text-brand2">{texth1end}</h3>
         </div>
