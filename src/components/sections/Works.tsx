@@ -15,20 +15,22 @@ export const Works = () => {
             <img src="/arrow1.svg" className="w-2" />
           </div>
 
-          <div className="grid grid-cols-2 grid-rows-3 h-full">
-            <div className="col-span-1 row-span-3">
-              <img src="/Dual.svg" className="w-96"/>
+          <div className="flex">
+            <div>
+              <img src="/web6.png" className="w-56"/>
             </div>
 
-            <div className="col-span-1 row-span-1 ">
-              <div className="flex justify-center items-center gap-1">
-                <p className="text-base font-IBM font-normal text-brand1 border-b-2">View Website</p>
-                <img src="/pointer.svg" alt="pointer-ico" className="w-4 self-end"/>
+            <div className="flex flex-col">
+              <div className="text-white text-center">
+                <div className="flex justify-center items-center gap-1 hover:cursor-pointer">
+                  <p className="text-base font-IBM font-normal text-brand1 border-b-2">View Website</p>
+                  <img src="/pointer.svg" alt="pointer-ico" className="w-4 self-end"/>
+                </div>
               </div>
-            </div>
 
-            <div className="col-span-1 row-span-2">
-            <img src="/web3.png" className="w-96"/>
+              <div className="text-white text-center">
+                <img src="/web5.png" className="w-96"/>
+              </div>
             </div>
           </div>
 

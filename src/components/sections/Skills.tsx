@@ -3,7 +3,7 @@ import { Title } from "./homepage"
 export const Skills = () => {
 
   return (
-    <div className="bg-cover bg-center h-auto bg-opacity-70 pb-10" id="Skills"  style={{ backgroundImage: "url('/back2.jpg')"}}>
+    <div className="bg-cover bg-center h-auto bg-opacity-70 pb-10" id="Skills"  style={{ backgroundImage: "url('/back2.jpeg')"}}>
       <div className="mx-auto my-0 w-5/6 xl:w-5/6 lg:w-5/6 md:w-5/6 sm:w-5/6 lg:mt-0">
         <div className="flex flex-col gap-8">
 
